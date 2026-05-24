@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
+@Entity //bu anatosyon sayesinde tablolara dönüyor bunlar  hibernate burada devreye giriyor
 @Table(name = "blogs")
 public class Blog {
 

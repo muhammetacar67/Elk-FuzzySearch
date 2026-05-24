@@ -13,7 +13,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(indexName = "blogs")
+@Document(indexName = "blogs") // burada bu anatosyon sayesinde Spring Data Elasticsearch  elk içinde indeks oluşturur
 public class BlogDocument {
 
     @Id
